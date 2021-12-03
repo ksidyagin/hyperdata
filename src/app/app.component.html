@@ -1,0 +1,153 @@
+<div class="topnav">
+    <div class="topnav__logo">
+      <img src="../assets/image 336.svg" alt="">
+    </div>
+    <a href="#news">Поиск сегментов</a>
+    <a href="#contact">Платежеспособность</a>
+     
+      <a href="#search">Интересы</a>
+      <a style="float: right;" href="#about">Статистика</a>
+      <a style="float: right;" href="#about">Приложения</a>
+      <div class="topnav__signin-btn">SIGN IN</div>
+
+  </div>
+  <div class="search">
+    <div class="search__title">Поиск сегментов</div>
+    <div class="select_areas">
+      <div class="select">
+        <div class="select__title">Приложение</div>
+        <select id="standard-select">
+          <option value="Option 1">Option 1</option>
+          <option value="Option 2">Option 2</option>
+          <option value="Option 3">Option 3</option>
+          <option value="Option 4">Option 4</option>
+          <option value="Option 5">Option 5</option>
+          <option value="Option length">
+            Option that has too long of a value to fit
+          </option>
+        </select>
+      </div>
+      <div class="select">
+        <div class="select__title">Тип рекламы:</div>
+        <select id="standard-select">
+          <option value="Option 1">Option 1</option>
+          <option value="Option 2">Option 2</option>
+          <option value="Option 3">Option 3</option>
+          <option value="Option 4">Option 4</option>
+          <option value="Option 5">Option 5</option>
+          <option value="Option length">
+            Option that has too long of a value to fit
+          </option>
+        </select>
+      </div>
+      <div class="select">
+        <div class="select__title">Направление рекламы:</div>
+        <select id="standard-select">
+          <option value="Option 1">Option 1</option>
+          <option value="Option 2">Option 2</option>
+          <option value="Option 3">Option 3</option>
+          <option value="Option 4">Option 4</option>
+          <option value="Option 5">Option 5</option>
+          <option value="Option length">
+            Option that has too long of a value to fit
+          </option>
+        </select>
+      </div>
+    </div>
+
+  </div>
+  <p-chart type="polarArea" [data]="data" [options]="chartOptions" [style]="{'width': '30%'}"></p-chart>
+  
+  <br>
+  <div class="segment__title">
+    Описание сегментов
+</div>
+  <div class="accordion-wrapper">
+    <div class="accordion">
+      <input type="radio" name="radio-a" id="check1" checked>
+      <label class="accordion-label" for="check1">Сегмент 1</label>
+      <div class="accordion-content">
+        <div class="accordion-content__characters">
+            Характеристика
+            <br>
+            <br>
+            возраст: 14-28 лет
+            <br>
+            пол: Ж
+            <br>
+            интересы: литература, одежда
+          </div>
+          <div class="accordion-content__params">
+            <div class="accordion-content__params-item">
+                <img src="../assets/Mask Group.svg" alt="">
+                Платежеспособность: активный
+            </div>
+            <div class="accordion-content__params-item">
+                <img src="../assets/Mask Group2.svg" alt="">
+                Статус: активный пользователь
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <input type="radio" name="radio-a" id="check2">
+      <label class="accordion-label" for="check2">Сегмент 2</label>
+      <div class="accordion-content">
+        <div class="accordion-content__characters">
+            Характеристика
+            <br>
+            <br>
+            возраст: 14-28 лет
+            <br>
+            пол: Ж
+            <br>
+            интересы: литература, одежда
+          </div>
+          <div class="accordion-content__params">
+            <div class="accordion-content__params-item">
+                <img src="../assets/Mask Group.svg" alt="">
+                Платежеспособность: активный
+            </div>
+            <div class="accordion-content__params-item">
+                <img src="../assets/Mask Group2.svg" alt="">
+                Статус: активный пользователь
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="accordion">
+      <input type="radio" name="radio-a" id="check3">
+      <label class="accordion-label" for="check3">Сегмент 3</label>
+      <div class="accordion-content">
+          <div class="accordion-content__characters">
+            Характеристика
+            <br>
+            <br>
+            возраст: 14-28 лет
+            <br>
+            пол: Ж
+            <br>
+            интересы: литература, одежда
+          </div>
+          <div class="accordion-content__params">
+            <div class="accordion-content__params-item">
+                <img src="../assets/Mask Group.svg" alt="">
+                Платежеспособность: активный
+            </div>
+            <div class="accordion-content__params-item">
+                <img src="../assets/Mask Group2.svg" alt="">
+                Статус: активный пользователь
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="segment__title">
+      Заказчики рекламы в приложении
+  </div>
+  <div class="company__item">Компания 1</div>
+  <div class="company__item">Компания 2</div>
+  <div class="company__item">Компания 3</div>
+  <div class="company__item">Компания 4</div>
